@@ -15,4 +15,15 @@ step3.after loading the image,click on predict button then it will predict that 
 This website is deployed in Heroku you can access it [here](https://crop-disease-prediction-1.herokuapp.com/)   
 # Usage  
 **You can use this project for further developing it and adding your work in it. If you use this project, kindly mention the original source of the project and mention the link of this repo in your report.**
-# Demo Screenshots 
+# Demo video
+
+
+https://user-images.githubusercontent.com/71584572/128216916-39c9434b-a469-4cbd-8a8f-57adc1816196.mp4
+
+#screenshots
+![Screenshot (257)](https://user-images.githubusercontent.com/71584572/128217155-fbb0402e-d5ec-4e91-8d9f-e5bc0e04f975.png)
+![Screenshot (258)](https://user-images.githubusercontent.com/71584572/128217178-45bc95ce-7704-4e49-9eb7-214da9e004f0.png)
+![Screenshot (259)](https://user-images.githubusercontent.com/71584572/128217204-a47fb3bf-33d3-4811-9959-f71fdc96cb41.png)
+
+
+
