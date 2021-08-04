@@ -1,0 +1,214 @@
+<html>
+<head>
+<style>
+div.a {
+   text-align:center;
+}
+</style>
+<div class="a">
+<h1>CROP DISEASE PREDICTION RESULTS</h1><br>
+<body><h2>{% if result=='cherry_healthy' %}</h2>
+<h1>Crop    : Cherry </h1>
+<h1>Disease : No disease </h1>
+<h3>There is no disease predicted to your crop,your Cherry crop is healthy</h3>
+{% endif %}
+<h2> {% if result == 'cherry_powdery_mildew' %}</h2>
+<h1>Crop   : Cherry</h1>
+<h2>Disease: CHERRY POWDERY MILDEW</h2>
+<h3>How to prevent cherry podwery mildew disease ?</h3>
+<h4>Spray on plants every one to two weeks. Potassium bicarbonate– Similar to baking soda,<br>
+this has the unique advantage of actually eliminating powdery mildew once it's there. <br>
+Potassium bicarbonate is a contact fungicide which kills the powdery mildew spores quickly.</h4>
+{% endif %}
+<h2> {% if result == 'Apple_scab' %}</h2>
+<h1>Crop : Apple</h1>
+<h2>Disease: APPLE SCAB</h2>
+<h3>How to prevent apple scab disease ?</h3>
+<h4>1.Grow scab-resistant cultivars of apples. Apples with good resistance include Akane, Chehalis, Liberty, Prima and Tydeman Red.<br>
+2. Apply nitrogen to leaves that have fallen to the ground in the fall to enhance decomposition of fallen leaves <br>
+and make them more palatable to earthworms. Hand apply a liquid fish solution or 16-16-16 fertilizer to help with the decomposition.<br>
+3. Shred fallen leaves in the fall with a mower to help speed up decomposition.<br>
+4. Prune your apple trees to open up branching and allow more air circulation.<br>
+5. When watering your apple trees, avoid getting foliage wet.</h4>
+{% endif %} 
+<h2> {% if result == 'Black_rot' %}</h2>
+<h1>Crop : Apple</h1>
+<h2>Disease: BLACK ROT</h2>
+<h3>How to prevent apple Black Rot disease ?</h3>
+<h4>1.Prune out dead or diseased branches.<br>
+2.Pick all dried and shriveled fruits remaining on the trees.<br>
+3.Remove infected plant material from the area.<br>
+4.All infected plant parts should be burned, buried or sent to a municipal composting site.<br>
+5.Be sure to remove the stumps of any apple trees you cut down.</h4>
+{% endif %}
+<h2> {% if result == 'Cedar_apple_rust' %}</h2>
+<h1>Crop : Apple</h1>
+<h2>Disease: CEDAR APPLE RUST</h2>
+<h3>How to prevent Cedar Apple rust disease ?</h3>
+<h4>Sulfur treatment is considered an organically acceptable preventable treatment for cedar rust disease.<br>
+ Apply it three times during the growing season. The most effective periods to spray are when trees<br>
+form flower buds, 10 days after the first spray and 10 days after the flowers fall from the trees.</h4>
+{% endif %} 
+<h2> {% if result == 'black_rot' %}</h2>
+<h1>Crop : Grape</h1>
+<h2>Disease: GRAPE BLACK ROT</h2>
+<h3>How to prevent grape black rot disease ?</h3>
+<h4>1.Start with clean seed. In warm, humid weather, a single infected seed in as many as 10,000 could lead to a black rot outbreak. ...<br>
+2.Maintain a four year rotation. ...<br>
+3.Manage weeds. ...<br>
+4.Maintain hygienic conditions. </h4>
+{% endif %}
+<h2> {% if result == 'esca' %}</h2>
+<h1>Crop : Grape</h1>
+<h2>Disease: GRAPE ESCA</h2>
+<h3>How to prevent grape esca disease ?</h3>
+<h4>1.Apply dormant sprays to reduce inoculum levels. ...<br>
+2.Cut it out. ...<br>
+3.Open up that canopy. ...<br>
+4.Don't let down your defenses. ...<br>
+5.Scout early, scout often. ...</h4>
+{% endif %} 
+<h2> {% if result == 'healthy' %}</h2>
+<h1>Crop : Grape</h1>
+<h2>Disease: NO DISEASE</h2>
+<h4>There is no disease predicted to your crop,your grape crop is healthy </h4>
+{% endif %} 
+<h2> {% if result == 'leaf_blight' %}</h2>
+<h1>Crop : Grape</h1>
+<h2>Disease: GRAPE LEAF BLIGHT</h2>
+<h3>How to prevent grape leaf blight disease ?</h3>
+<h4>1.Apply dormant sprays to reduce inoculum levels. ...<br>
+2.Cut it out. ...<br>
+3.Open up that canopy. ...<br>
+4.Don't let down your defenses. ...<br>
+5.Scout early, scout often. ...</h4>
+{% endif %}  
+<h2> {% if result == 'Northern_leaf_blight' %}</h2>
+<h1>Crop : Maize</h1>
+<h2>Disease: NORTHERN LEAF BLIGHT</h2>
+<h3>How to prevent maize northern leaf blight disease ?</h3>
+<h4>Remove and destroy infected plants at the end of the season in small gardens. <br>
+In large fields, till under crop residue at the end of the season. Several fungicides<br>
+are available for use against Alternaria leaf blight.Try resistant varieties. Leaves that<br>
+dry rapidly after rain or heavy dew are unlikely to develop problems with leaf blight, <br>
+so grow corn at proper spacing to make sure sunlight reaches all the leaves. Avoid places near trees,<br> 
+fences, or low pockets where dew is heavy and slow to dry.</h4>
+{% endif %}
+<h2> {% if result == 'cercospora_leaf_spot' %}</h2>
+<h1>Crop : Maize</h1>
+<h2>Disease: MAIZE CERCOSPORA LEAF SPOT</h2>
+<h3>How to prevent maize cercospora leaf spot disease ?</h3>
+<h4>1.Avoid short rotations of less than 3 years<br>
+2.Remove crop debris<br>
+3.In continents where Cercospora is more economically important, growers can select tolerant<br>
+varieties which can slow disease development helping fungicides to work more effectively. .<br>
+4.Foliar fungicides should be applied at disease onset (usually late July - Early August) and <br>
+if lifting beet beyond October a second application should be made 3-4 weeks later.</h4>
+{% endif %}
+<h2> {% if result == 'common_rust' %}</h2>
+<h1>Crop : Maize</h1>
+<h2>Disease: MAIZE COMMON RUST</h2>
+<h3>How to prevent maize common rust disease ?</h3>
+<h4>The application of fungicides can be beneficial when used on susceptible varieties. <br>
+Apply a foliar fungicide early in the season if rust is bound to spread rapidly due to the weather conditions.<br>
+Numerous fungicides are available for rust control.</h4>
+{% endif %} 
+<h2> {% if result == 'healthy' %}</h2>
+<h1>Crop : Maize</h1>
+<h2>Disease: NO DISEASE</h2>
+<h3>There is no disease predicted to your crop,your maize crop is healthy</h3>  
+{% endif %}
+<h2> {% if result == 'potato_early_blight' %}</h2>
+<h1>Crop : Potato</h1>
+<h2>Disease: POTATO EARLY BLIGHT</h2>
+<h3>Avoid overhead irrigation and allow for sufficient aeration between plants to allow the foliage<br>
+to dry as quickly as possible. Practice a 2-year crop rotation. That is, do not replant potatoes or other<br> 
+crops in this family for 2 years after a potato crop has been harvested. Keep the potato plants healthy and <br>
+stress free by providing adequate nutrition and sufficient irrigation, especially later in the growing season <br>
+after flowering when plants are most susceptible to the disease. Only dig the tubers up when they are completely <br>
+mature to prevent from damaging them. Any damage done at harvest can additionally facilitate the disease. <br>
+Remove plant debris and weed hosts at the end of the season to mitigate areas where the disease may overwinter</h3>  
+{% endif %} 
+<h2> {% if result == 'potato_healthy' %}</h2>
+<h1>Crop : Potato</h1>
+<h2>Disease: NO DISEASE</h2>
+<h3>There is no disease predicted to your crop,your potato crop is healthy</h3>  
+{% endif %}
+<h2> {% if result == 'potato_late_blight' %}</h2>
+<h1>Crop : Potato</h1>
+<h2>Disease: POTATO LATE BLIGHT</h2>
+<h3>1.Plant resistant cultivars when available.<br>
+2.Remove volunteers from the garden prior to planting and space plants far enough apart to allow for plenty of air circulation.<br>
+3.Water in the early morning hours, or use soaker hoses, to give plants time to dry out during the day — avoid overhead irrigation.<br>
+4.Destroy all tomato and potato debris after harvest</h3>  
+{% endif %}
+<h2> {% if result == 'tomato_early_blight' %}</h2>
+<h1>Crop : Tomato</h1>
+<h2>Disease: TOMATO EARLY BLIGHT</h2>
+<h3>Use pathogen-free seed, or collect seed only from disease-free plants.<br>
+Rotate out of tomatoes and related crops for at least two years.<br>
+Control susceptible weeds such as black nightshade and hairy nightshade, and volunteer tomato plants throughout the rotation.<b
+Fertilize properly to maintain vigorous plant growth. Particularly, do not over-fertilize with potassium and maintain adequate levels of both nitrogen and phosphorus.<br>
+Avoid working in plants when they are wet from rain, irrigation, or dew.<br>
+Use drip irrigation instead of overhead irrigation to keep foliage dry.</h3>  
+{% endif %} 
+<h2> {% if result == 'tomato_healthy' %}</h2>
+<h1>Crop : Tomato</h1>
+<h2>Disease: NO DISEASE</h2>
+<h3>There is no disease predicted to your crop,your tomato crop is healthy</h3>  
+{% endif %} 
+<h2> {% if result == 'tomato_late_blight' %}</h2>
+<h1>Crop : Tomato</h1>
+<h2>Disease: TOMATO LATE BLIGHT</h2>
+<h3>Sanitation is the first step in controlling tomato late blight. <br>
+Clean up all debris and fallen fruit from the garden area. This is particularly essential in warmer areas<br> 
+where extended freezing is unlikely and the late blight tomato disease may overwinter in the fallen fruit.<br
+Currently, there are no strains of tomato available that are resistant to late tomato blight, so plants should be inspected at least twice a week.<br>
+Since late blight symptoms are more likely to occur during wet conditions, more care should be taken during those times </h3>  
+{% endif %} 
+</body>   
+</head>        
+</div>
+<br><br><br><br>
+<div class="a">
+<h1>ABOUT US</h1>
+<h2>Made by B.shekhar,A.Sai varma,N.Anjaneyulu,CH.Akash Reddy</h2>
+<h2>B V Raju Institute of Technology,Narsapur</h2>
+<h3>For more queries about Crop Disease Prediction and Prevention please contact us at</h3>
+<a href="https://www.linkedin.com/in/shekhar-boppanapally-647a281bb/" style="font-size:25px">Linkedln.com!</a><br>
+<a href="https://github.com/shekharboppanapally" style="font-size:25px">Github.com!</a><br>
+<a href="mail to:19211a0540@bvrit.ac.in" style="font-size:25px">mail.com!</a>.<br> 
+</div>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
